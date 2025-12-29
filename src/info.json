@@ -1,0 +1,24 @@
+{
+  "identifier": "nz.owo.wechat.ocr",
+  "version": "0.1.0",
+  "category": "ocr",
+  "name": "WeChat OCR",
+  "summary": "WeChat powered OCR",
+  "icon": "icon.png",
+  "author": "Vincent Yang <me@owo.nz>",
+  "homepage": "https://github.com/missuo/bob-plugin-wechat-ocr",
+  "appcast": "https://github.com/missuo/bob-plugin-wechat-ocr/raw/main/appcast.json",
+  "minBobVersion": "1.8.0",
+  "options": [
+    {
+      "identifier": "apiUrl",
+      "type": "text",
+      "title": "WeChat API Base URL",
+      "desc": "WeChat API Base URL",
+      "textConfig": {
+        "type": "visible",
+        "placeholderText": "https://ocr-api.missuo.me"
+      }
+    }
+  ]
+}
