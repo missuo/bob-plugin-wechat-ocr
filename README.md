@@ -18,6 +18,16 @@ This plugin works out of the box with the default API server.
 - **WeChat API Base URL**: You can configure a custom API endpoint if needed.
   - Default: `https://ocr-api.missuo.me`
 
+## Self-hosting API
+
+You can deploy the OCR API server using [wxocr](https://github.com/missuo/wxocr) or simply run:
+
+```bash
+git clone https://github.com/missuo/wxocr.git
+cd wxocr
+docker compose up -d --build
+```
+
 ## Development
 
 1. Clone this repository.
